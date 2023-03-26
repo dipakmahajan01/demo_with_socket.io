@@ -1,0 +1,23 @@
+{
+  "name": "socket.io",
+  "version": "1.0.0",
+  "description": "chat app",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "socket.io_chat_app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.3",
+    "socket.io-client": "^4.5.2"
+  }
+}
